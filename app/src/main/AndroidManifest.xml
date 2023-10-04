@@ -7,10 +7,16 @@
         android:dataExtractionRules="@xml/data_extraction_rules"
         android:fullBackupContent="@xml/backup_rules"
         android:icon="@mipmap/ic_launcher"
-        android:label="@string/app_name"
+        android:label="The Hungry Developer"
         android:supportsRtl="true"
         android:theme="@style/Theme.TheHungryDeveloper"
         tools:targetApi="31">
+        <activity
+            android:name=".StarterActivity"
+            android:exported="false"
+            android:label="Starters"
+            android:parentActivityName=".MainActivity"
+            />
         <activity
             android:name=".MainActivity"
             android:exported="true">

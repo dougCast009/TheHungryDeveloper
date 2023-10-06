@@ -3,6 +3,9 @@ package com.welovecrazyquotes.thehungrydeveloper;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
+import android.widget.ListView;
+
+import com.dcastillo.thehungrydeveloper.R;
 
 public class StarterActivity extends AppCompatActivity {
 
@@ -10,5 +13,8 @@ public class StarterActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_starter);
+
+        ListView startersList = findViewById(R.id.list_view_sarters);
+
     }
 }

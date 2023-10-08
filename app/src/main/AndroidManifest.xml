@@ -12,11 +12,20 @@
         android:theme="@style/Theme.TheHungryDeveloper"
         tools:targetApi="31">
         <activity
+            android:name=".DessertsActivity"
+            android:exported="false"
+            android:label="Desserts"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".MainCoursesActivity"
+            android:exported="false"
+            android:label="Main Courses"
+            android:parentActivityName=".MainActivity" />
+        <activity
             android:name=".StarterActivity"
             android:exported="false"
             android:label="Starters"
-            android:parentActivityName=".MainActivity"
-            />
+            android:parentActivityName=".MainActivity" />
         <activity
             android:name=".MainActivity"
             android:exported="true">
